@@ -692,3 +692,41 @@ button { cursor: pointer; }
     padding: 0 0 20px;
   }
 }
+.status-open,
+.status-closed {
+  display: inline-flex;
+  margin-left: 10px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.status-open {
+  color: #bdf9dc;
+  background: rgba(35, 209, 139, 0.12);
+  border: 1px solid rgba(35, 209, 139, 0.25);
+}
+
+.status-closed {
+  color: #ffd1d8;
+  background: rgba(255, 93, 122, 0.12);
+  border: 1px solid rgba(255, 93, 122, 0.25);
+}
+
+.btn-disabled {
+  color: #8f9bb0;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  cursor: not-allowed;
+  pointer-events: none;
+  box-shadow: none;
+}
+
+.application-btn {
+  width: 100%;
+  margin-top: 18px;
+  padding: 12px 16px;
+  border-radius: 14px;
+  font-size: .95rem;
+}
