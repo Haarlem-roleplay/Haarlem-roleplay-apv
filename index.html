@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Future Style APV | FiveM Server</title>
+  <meta name="description" content="Professionele APV-website voor een FiveM roleplay server." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-grid"></div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top">
+        <span class="brand-mark">FR</span>
+        <span class="brand-text">
+          <strong>Future Style RP</strong>
+          <small>APV & Wetgeving</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#top">Home</a>
+        <a href="#overzicht">Overzicht</a>
+        <a href="#apv">APV</a>
+        <a href="#straffen">Straffen</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#discord">Discord</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Professionele FiveM regelgeving</span>
+          <h1>Een APV website die wél strak, donker en modern oogt.</h1>
+          <p class="hero-text">Een nette, overzichtelijke en professionele pagina voor jouw serverregels. Met snelle navigatie, zoekfunctie, duidelijke categorieën en een layout die veel beter past bij een serieuze roleplay community.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#apv">Bekijk APV</a>
+            <button class="btn btn-secondary" id="printBtn">Print / PDF</button>
+          </div>
+          <div class="hero-badges">
+            <span>Dark mode design</span>
+            <span>Zoekfunctie</span>
+            <span>GitHub klaar</span>
+          </div>
+        </div>
+
+        <div class="hero-panel">
+          <div class="hero-card hero-card-main">
+            <div class="card-label">Server regels</div>
+            <h2>Algemene Plaatselijke Verordening</h2>
+            <p>Gebruik de inhoudsopgave of zoek direct op termen zoals <b>FailRP</b>, <b>Cheats</b>, <b>RDM</b> of <b>Gangregels</b>.</p>
+            <div class="stat-grid">
+              <div>
+                <strong>11</strong>
+                <span>Artikelen</span>
+              </div>
+              <div>
+                <strong>40+</strong>
+                <span>Regels</span>
+              </div>
+              <div>
+                <strong>Dark</strong>
+                <span>Layout</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-card hero-card-side">
+            <span class="update-pill">Laatste versie • 2026</span>
+            <p>Geschikt voor spelers, staff, gangs, overheid en hulpdiensten.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="overview" id="overzicht">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="eyebrow">Snel overzicht</span>
+          <h2>Alles duidelijk op één plek</h2>
+          <p>Deze website combineert een nette homepage met een volledige APV, strafcategorieën en ondersteuning voor mobiel en desktop.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-icon">01</span>
+            <h3>Snelle navigatie</h3>
+            <p>Direct naar elk artikel via de sidebar of het menu bovenaan.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon">02</span>
+            <h3>Zoekfunctie</h3>
+            <p>Zoek op artikelnaam, overtreding of categorie in de volledige APV.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon">03</span>
+            <h3>Professionele uitstraling</h3>
+            <p>Geen witte simpele pagina, maar een moderne roleplay stijl die past bij FiveM.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon">04</span>
+            <h3>Direct online te zetten</h3>
+            <p>Klaar voor GitHub Pages, Netlify of jouw eigen hosting/domein.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="apv-shell" id="apv">
+      <div class="container shell-grid">
+        <aside class="sidebar-card">
+          <div class="sidebar-top">
+            <span class="eyebrow">Inhoud & zoeken</span>
+            <h3>APV Navigatie</h3>
+          </div>
+
+          <div class="search-box">
+            <label for="searchInput">Zoeken in APV</label>
+            <input id="searchInput" type="search" placeholder="Bijv. FailRP, RDM, Cheats..." />
+          </div>
+
+          <nav class="sidebar-nav">
+            <a href="#inleiding">Inleiding</a>
+            <a href="#straffen">Strafcategorieën</a>
+            <a href="#algemeen">Algemene bepalingen</a>
+            <a href="#account">1. Account & gebruik</a>
+            <a href="#roleplay">2. Foutieve roleplay</a>
+            <a href="#leven">3. Leven</a>
+            <a href="#voertuigen">4. Voertuigen</a>
+            <a href="#wapens">5. Wapens</a>
+            <a href="#microfoon">6. Microfoon</a>
+            <a href="#gedrag">7. Gedrag</a>
+            <a href="#scammen">8. Scammen</a>
+            <a href="#staff">9. Staff & reports</a>
+            <a href="#politie">10. Criminelen & politie</a>
+            <a href="#eiland">11. Het eiland</a>
+            <a href="#contact">Contact</a>
+            <a href="#discord">Discord</a>
+          </nav>
+        </aside>
+
+        <div class="content-column">
+          <section class="panel panel-intro" id="inleiding">
+            <span class="eyebrow">Regelgeving</span>
+            <h2>Algemene Plaatselijke Verordening</h2>
+            <p>Deze Algemene Plaatselijke Verordening, afgekort APV, bevat de belangrijkste serverregels voor jouw FiveM roleplay server. De APV is bedoeld om spelers duidelijkheid te geven over wat er van hen verwacht wordt tijdens het spelen.</p>
+            <p>Het doel van deze regels is het bewaken van kwaliteit, eerlijkheid, veiligheid en plezier. Iedere speler is zelf verantwoordelijk voor het lezen en naleven van deze APV. Onwetendheid over de regels is geen geldige reden om een sanctie te voorkomen.</p>
+            <div class="notice">
+              <strong>Belangrijk:</strong>
+              <span>Staff mag per situatie beoordelen of een straf verzwaard, verlicht of aangepast wordt. Context, bewijs, logs en eerdere waarschuwingen kunnen hierin worden meegenomen.</span>
+            </div>
+          </section>
+
+          <section class="panel" id="straffen">
+            <div class="panel-head">
+              <span class="eyebrow">Sancties</span>
+              <h2>Strafcategorieën</h2>
+            </div>
+            <p>De onderstaande categorieën zijn richtlijnen. Staff kan op basis van redelijkheid, ernst van de situatie en herhaling afwijken.</p>
+
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr><th>Categorie</th><th>Sanctie</th><th>Toepassing</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>Cat. 1</td><td>Mondelinge/schriftelijke waarschuwing + 100 taken</td><td>Lichte overtredingen of eerste waarschuwing</td></tr>
+                  <tr><td>Cat. 2</td><td>Waarschuwing + 150 taken</td><td>Kleine verstoring van roleplay</td></tr>
+                  <tr><td>Cat. 3</td><td>Waarschuwing + 275 taken</td><td>Duidelijke RP-overtreding</td></tr>
+                  <tr><td>Cat. 4</td><td>Waarschuwing + 350 taken</td><td>Zware RP-overtreding of herhaling</td></tr>
+                  <tr><td>Cat. 5</td><td>Waarschuwing + 500 taken</td><td>Ernstige verstoring</td></tr>
+                  <tr><td>Cat. 6</td><td>24 uur ban + 250 taken</td><td>Zware overtreding</td></tr>
+                  <tr><td>Cat. 7</td><td>3 dagen ban + 300 taken</td><td>Ernstige of bewuste overtreding</td></tr>
+                  <tr><td>Cat. 8</td><td>2 weken ban + 400 taken</td><td>Zeer ernstige overtreding</td></tr>
+                  <tr><td>Cat. 9</td><td>1 maand ban + 450 taken</td><td>Strafontwijking of zware herhaling</td></tr>
+                  <tr><td>Cat. 10</td><td>Permanente ban</td><td>Extreme overtreding</td></tr>
+                  <tr><td>Cat. 11</td><td>Permanente ban + account wipe</td><td>Cheats, exploits, IRL trading of ernstige schade</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="rules-section" id="algemeen">
+            <div class="section-head-line"><span class="section-number">A</span><h2>Algemene Bepalingen</h2></div>
+            <article class="rule-card"><h3>A1 — Reikwijdte</h3><p>Deze APV geldt voor iedereen die speelt op de server. De regels gelden in de stad, op Discord wanneer dit invloed heeft op de server, en in alle situaties waarin spelers de roleplay-ervaring beïnvloeden.</p></article>
+            <article class="rule-card"><h3>A2 — Geldigheid</h3><p>Wanneer regels veranderen, kan staff per situatie beoordelen welke versie redelijk toegepast wordt. Staffleden behandelen geen zaken waarbij zij zelf, vrienden of familie direct betrokken zijn, tenzij management anders beslist.</p></article>
+            <article class="rule-card"><h3>A3 — Handhaving</h3><p>Staff behandelt meldingen op basis van bewijs, logs, clips, verklaringen en eigen waarneming. Het maken van clips wordt sterk aangeraden en kan verplicht zijn bij bepaalde scenario’s.</p></article>
+          </section>
+
+          <section class="rules-section" id="account">
+            <div class="section-head-line"><span class="section-number">1</span><h2>Artikel 1 — Account & Gebruik</h2></div>
+            <article class="rule-card"><h3>1.1 Cheats en externe software <span class="chip">Cat. 11</span></h3><p>Het gebruik van cheats, mod-menu’s, injectors, spoofers, externe crosshairs, aangepaste FOV via misbruik of andere software die voordeel geeft is verboden.</p></article>
+            <article class="rule-card"><h3>1.2 PC-check en controle</h3><p>Bij een sterk vermoeden van valsspelen kan staff vragen om mee te werken aan een controle. Weigering kan gevolgen hebben voor toegang tot de server. Privacy dient hierbij zorgvuldig behandeld te worden.</p></article>
+            <article class="rule-card"><h3>1.3 Exploits <span class="chip">Cat. 11</span></h3><p>Het bewust misbruiken van exploits om geld, items, wapens, voertuigen of ander voordeel te krijgen is verboden. Ontdekte exploits moeten direct gemeld worden.</p></article>
+            <article class="rule-card"><h3>1.4 Bugs <span class="chip">Cat. 4</span></h3><p>Het moedwillig gebruiken van bugs, animatieglitches of systeemfouten is niet toegestaan. Wie een bug ontdekt, meldt dit bij staff.</p></article>
+            <article class="rule-card"><h3>1.5 Alternatieve accounts</h3><p>Alt-accounts gebruiken om geld, items of voordelen over te zetten is verboden. Accounts gebruiken om straffen te ontlopen wordt zwaar bestraft.</p></article>
+            <article class="rule-card"><h3>1.6 IRL trading <span class="chip">Cat. 11</span></h3><p>Het kopen, verkopen of ruilen van in-game goederen, geld, voertuigen, accounts of diensten voor echt geld is verboden.</p></article>
+            <article class="rule-card"><h3>1.7 Clipsysteem</h3><p>Spelers worden geacht belangrijke scenario’s te kunnen clippen. Bij staffzaken kan gevraagd worden om beeldmateriaal van minimaal enkele minuten rondom het incident.</p></article>
+          </section>
+
+          <section class="rules-section" id="roleplay">
+            <div class="section-head-line"><span class="section-number">2</span><h2>Artikel 2 — Foutieve Roleplay</h2></div>
+            <article class="rule-card"><h3>2.1 FailRP <span class="chip">Cat. 3</span></h3><p>FailRP is het opzettelijk verstoren, slecht uitvoeren of niet afmaken van een scenario. Voorbeelden zijn praten terwijl je dood bent, overheidskleding misbruiken, scenario’s weigeren of onrealistische handelingen uitvoeren.</p></article>
+            <article class="rule-card"><h3>2.2 Powergaming <span class="chip">Cat. 2</span></h3><p>Powergaming is het afdwingen van oneerlijk voordeel of handelingen uitvoeren waarbij de tegenpartij geen realistische kans heeft om te reageren.</p></article>
+            <article class="rule-card"><h3>2.3 Gangterreinen <span class="chip">Cat. 2</span></h3><p>Het zonder geldige roleplayreden rondhangen, provoceren, fake meldingen maken of scenario’s starten op gangterreinen is niet toegestaan.</p></article>
+            <article class="rule-card"><h3>2.4 Metagaming <span class="chip">Cat. 3</span></h3><p>Informatie die buiten het spel is verkregen, mag niet in character gebruikt worden. Denk aan Discord-calls, streams, schermdelen of informatie uit tickets.</p></article>
+            <article class="rule-card"><h3>2.5 OOC gaan <span class="chip">Cat. 1</span></h3><p>Het gebruiken van OOC-termen in een IC-situatie is niet toegestaan. Los problemen na het scenario op via een ticket of supportkanaal.</p></article>
+            <article class="rule-card"><h3>2.6 Combatloggen <span class="chip">Cat. 4</span></h3><p>Na criminele activiteiten, achtervolgingen, schietpartijen of ripacties moet je beschikbaar blijven om het scenario af te ronden. Bij een crash join je zo snel mogelijk terug.</p></article>
+            <article class="rule-card"><h3>2.7 Geen intentie tot roleplay <span class="chip">Cat. 2</span></h3><p>Spelers moeten de intentie hebben om realistische en leuke roleplay neer te zetten. Scenario’s verpesten, trollen of weigeren mee te spelen valt hieronder.</p></article>
+          </section>
+
+          <section class="rules-section" id="leven">
+            <div class="section-head-line"><span class="section-number">3</span><h2>Artikel 3 — Leven</h2></div>
+            <article class="rule-card"><h3>3.1 NVOL / No Value of Life <span class="chip">Cat. 3</span></h3><p>Je personage moet waarde hechten aan zijn of haar leven. Weglopen van een gericht wapen, terugvechten in een onmogelijke situatie of jezelf bewust in levensgevaar brengen is niet toegestaan.</p></article>
+            <article class="rule-card"><h3>3.2 New Life Rule <span class="chip">Cat. 2</span></h3><p>Na overlijden of respawn mag je informatie van vóór je dood niet meer gebruiken, tenzij staff of het scenario hier duidelijk anders over beslist.</p></article>
+          </section>
+
+          <section class="rules-section" id="voertuigen">
+            <div class="section-head-line"><span class="section-number">4</span><h2>Artikel 4 — Gebruik van Voertuigen</h2></div>
+            <article class="rule-card"><h3>4.1 Voertuiggebruik <span class="chip">Cat. 1</span></h3><p>Voertuigen moeten logisch gebruikt worden. Zwaardere voertuigen mogen geen onrealistische acties uitvoeren tegenover lichtere voertuigen. Gebruik altijd gezond verstand.</p></article>
+            <article class="rule-card"><h3>4.2 VDM <span class="chip">Cat. 3</span></h3><p>Je voertuig gebruiken als wapen is verboden. Bewust inrijden op spelers of voertuigen met de bedoeling schade toe te brengen valt onder VDM.</p></article>
+            <article class="rule-card"><h3>4.3 GTA Style Driving <span class="chip">Cat. 2</span></h3><p>Onrealistisch rijden, stuntjumps, extreem offroad rijden met ongeschikte voertuigen, onnodig beuken of rijdende blokkades zijn niet toegestaan.</p></article>
+          </section>
+
+          <section class="rules-section" id="wapens">
+            <div class="section-head-line"><span class="section-number">5</span><h2>Artikel 5 — Wapens</h2></div>
+            <article class="rule-card"><h3>5.1 RDM <span class="chip">Cat. 4</span></h3><p>Het doden of verwonden van spelers zonder geldige roleplayreden is verboden. Geweld moet logisch voortkomen uit een scenario.</p></article>
+            <article class="rule-card"><h3>5.2 Wapengebruik <span class="chip">Cat. 4</span></h3><p>Wapens moeten verantwoord gebruikt worden. Willekeurig schieten, zonder controle steken/slaan of geweld gebruiken zonder opbouw is niet toegestaan.</p></article>
+          </section>
+
+          <section class="rules-section" id="microfoon">
+            <div class="section-head-line"><span class="section-number">6</span><h2>Artikel 6 — Microfoon & Stem</h2></div>
+            <article class="rule-card"><h3>6.1 Microfoonmisbruik <span class="chip">Cat. 3</span></h3><p>Earrapen, soundpads misbruiken of anderen bewust storen via voice is verboden.</p></article>
+            <article class="rule-card"><h3>6.2 Stemherkenning <span class="chip">Cat. 4</span></h3><p>Een stem mag alleen herkend worden als je de persoon logisch kent. Wanneer iemand duidelijk anders praat of een passend stemvervormer-scenario heeft, moet dit gerespecteerd worden.</p></article>
+            <article class="rule-card"><h3>6.3 Taalgebruik <span class="chip">Cat. 3</span></h3><p>Spelers moeten Nederlands of Engels kunnen spreken. Andere talen mogen niet provocerend, beledigend of verstorend worden gebruikt.</p></article>
+            <article class="rule-card"><h3>6.4 Stemvervormers <span class="chip">Cat. 1</span></h3><p>Stemvervormers zijn alleen toegestaan wanneer dit logisch is binnen het scenario en menselijk blijft klinken.</p></article>
+          </section>
+
+          <section class="rules-section" id="gedrag">
+            <div class="section-head-line"><span class="section-number">7</span><h2>Artikel 7 — Gedrag</h2></div>
+            <article class="rule-card"><h3>7.1 Ongepast taalgebruik</h3><p>Beledigingen, discriminatie, racisme, seksisme, ziekteschelden of persoonlijke aanvallen worden niet geaccepteerd. De straf hangt af van ernst en intentie.</p></article>
+            <article class="rule-card"><h3>7.2 Toxic gedrag <span class="chip">Cat. 2</span></h3><p>Toxic gedrag, intimidatie, bedreigingen of bewust haat veroorzaken in scenario’s of richting spelers is verboden.</p></article>
+            <article class="rule-card"><h3>7.3 DDoS / Doxing <span class="chip">Cat. 9+</span></h3><p>Het dreigen met, uitvoeren van of aanmoedigen tot DDoS-aanvallen of het delen van persoonlijke gegevens is streng verboden.</p></article>
+          </section>
+
+          <section class="rules-section" id="scammen">
+            <div class="section-head-line"><span class="section-number">8</span><h2>Artikel 8 — Scammen</h2></div>
+            <article class="rule-card"><h3>8.1 Scammen <span class="chip">Cat. 7</span></h3><p>Scammen is niet toegestaan bij voertuigen, legale goederen en grote geldbedragen boven de afgesproken limiet. Criminele scenario’s moeten logisch en eerlijk opgebouwd zijn.</p></article>
+          </section>
+
+          <section class="rules-section" id="staff">
+            <div class="section-head-line"><span class="section-number">9</span><h2>Artikel 9 — Staff & Reports</h2></div>
+            <article class="rule-card"><h3>9.1 /Report gebruik <span class="chip">Cat. 1</span></h3><p>Reports moeten duidelijk en rustig verwoord worden. Spammen of misbruik maken van reports is verboden.</p></article>
+            <article class="rule-card"><h3>9.2 Voordoen als staff <span class="chip">Cat. 6</span></h3><p>Jezelf voordoen als stafflid of uitspraken doen alsof je staffbevoegdheden hebt, is niet toegestaan.</p></article>
+            <article class="rule-card"><h3>9.3 Staff abuse <span class="chip">Cat. 11</span></h3><p>Staffleden mogen hun bevoegdheden niet gebruiken voor eigen voordeel, roleplayvoordeel of het bevoordelen van vrienden, gangs of organisaties.</p></article>
+          </section>
+
+          <section class="rules-section" id="politie">
+            <div class="section-head-line"><span class="section-number">10</span><h2>Artikel 10 — Interactie tussen Criminelen en Politie</h2></div>
+            <article class="rule-card"><h3>10.1 Na een beenschot</h3><p>Wanneer een crimineel wapens of communicatiemiddelen van een agent wil afpakken, moet dit duidelijk en via correcte roleplay gebeuren.</p></article>
+            <article class="rule-card"><h3>10.2 Copbaiten <span class="chip">Cat. 4</span></h3><p>Het bewust uitdagen, irriteren of provoceren van politie zonder geldige roleplayreden is verboden.</p></article>
+            <article class="rule-card"><h3>10.3 Third party <span class="chip">Cat. 4</span></h3><p>Het mengen in overvallen, gijzelingen of shootouts zonder directe betrokkenheid is niet toegestaan, zeker niet wanneer politie of KMar al aanwezig is.</p></article>
+            <article class="rule-card"><h3>10.4 Controle behouden <span class="chip">Cat. 4</span></h3><p>Bij gijzeling of bedreiging moet de situatie logisch gespeeld worden. Beide kanten moeten realistische controle en dreiging respecteren.</p></article>
+            <article class="rule-card"><h3>10.5 Overige politie-regels <span class="chip">Cat. 4</span></h3><p>Het stelen van overheidsvoertuigen, misbruiken van uit-dienst medewerkers of onlogisch finishen van agenten is niet toegestaan.</p></article>
+          </section>
+
+          <section class="rules-section" id="eiland">
+            <div class="section-head-line"><span class="section-number">11</span><h2>Artikel 11 — Het Eiland</h2></div>
+            <article class="rule-card"><h3>11.1 Rippen & schieten</h3><p>Op het eiland kunnen zwaardere criminele scenario’s plaatsvinden. Rips moeten alsnog logisch blijven. Direct doden zonder opbouw blijft verboden.</p></article>
+            <article class="rule-card"><h3>11.2 Voertuiggebruik <span class="chip">Cat. 2</span></h3><p>Offroad rijden met ongeschikte voertuigen of voertuigen het water in rijden om te ontkomen is niet toegestaan en kan onder NVOL vallen.</p></article>
+          </section>
+
+          <section class="panel" id="contact">
+            <div class="panel-head">
+              <span class="eyebrow">Support</span>
+              <h2>Contact & Support</h2>
+            </div>
+            <p>Heb je vragen over een regel, sanctie of situatie? Maak een ticket aan in de officiële support Discord. Bespreek staffzaken niet via DM, maar via de juiste kanalen.</p>
+            <div class="contact-grid">
+              <div class="contact-card"><strong>Main Discord</strong><span>Voor community en nieuws</span></div>
+              <div class="contact-card"><strong>Support Discord</strong><span>Voor tickets en staffzaken</span></div>
+              <div class="contact-card"><strong>Onderwereld Discord</strong><span>Voor onderwereldzaken</span></div>
+              <div class="contact-card"><strong>Overheid Discord</strong><span>Voor hulpdiensten en overheid</span></div>
+            </div>
+          </section>
+
+          <section class="panel panel-discord" id="discord">
+            <div>
+              <span class="eyebrow">Community</span>
+              <h2>Discord koppelen</h2>
+              <p>Vervang hieronder de knop-link door jouw eigen Discord invite, zodat spelers direct kunnen joinen vanaf de website.</p>
+            </div>
+            <a class="btn btn-primary" href="#">Join Discord</a>
+          </section>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <p>© 2026 Future Style RP — APV Website</p>
+      <a href="#top">Terug naar boven ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
