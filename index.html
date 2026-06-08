@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>APV | Roleplay Stad</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-glow one"></div>
+  <div class="bg-glow two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home">
+      <span class="brand-mark">RP</span>
+      <span><strong>ROLEPLAY</strong><small>APV & Regels</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Menu openen">☰</button>
+    <nav class="top-nav">
+      <a href="#home">Home</a>
+      <a href="#apv">APV</a>
+      <a href="#straffen">Straffen</a>
+      <a href="#wetboek">Wetboek</a>
+      <a class="discord" href="#discord">Join Discord</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Welkom bij</p>
+        <h1>ROLEPLAY STAD</h1>
+        <p class="lead">De officiële Algemene Plaatselijke Verordening voor onze FiveM server. Hier vind je alle basisregels, strafcategorieën en richtlijnen voor eerlijke, realistische en leuke roleplay.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#apv">Bekijk APV</a>
+          <a class="btn ghost" href="#discord">Join Discord</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h2>APV overzicht</h2>
+        <p>Gebruik de zoekbalk of klik op een categorie om snel naar de juiste regels te gaan.</p>
+        <div class="quick-stats">
+          <span><b>9</b> Strafcategorieën</span>
+          <span><b>6</b> Hoofdcategorieën</span>
+          <span><b>40+</b> Artikelen</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="apv">
+      <div class="section-title">
+        <p class="eyebrow">Officiële regels</p>
+        <h2>Algemene Plaatselijke Verordening</h2>
+        <p>Deze APV is een richtlijn. Staff mag in redelijkheid afwijken wanneer een situatie daarom vraagt. Alle zaken worden behandeld op basis van feiten, logs, clips en eigen perspectief.</p>
+      </div>
+
+      <div class="search-row">
+        <input id="searchInput" type="search" placeholder="Zoek in de APV, bijvoorbeeld: FailRP, cheats, wapens..." />
+        <button id="printBtn">Print / PDF</button>
+      </div>
+
+      <div class="layout">
+        <aside class="sidebar">
+          <a href="#cheating">Cheating</a>
+          <a href="#roleplay">Roleplay</a>
+          <a href="#voertuigen">Voertuigen</a>
+          <a href="#wapens">Wapens</a>
+          <a href="#algemeen">Algemeen</a>
+          <a href="#staffzaken">Staffzaken</a>
+          <a href="#overheid">Overheid</a>
+          <a href="#criminaliteit">Criminaliteit</a>
+          <a href="#eiland">Eiland</a>
+        </aside>
+
+        <div class="rules">
+          <section class="rule-block" id="straffen">
+            <h3>Strafcategorieën</h3>
+            <p>Onderstaande categorieën worden gebruikt als basis voor sancties. Staff kan zwaarder of lichter straffen afhankelijk van de situatie, intentie en herhaling.</p>
+            <div class="penalty-grid">
+              <div><b>Categorie 1</b><span>Waarschuwing + 100 taken</span></div>
+              <div><b>Categorie 2</b><span>150 taken</span></div>
+              <div><b>Categorie 3</b><span>300 taken</span></div>
+              <div><b>Categorie 4</b><span>1 dag ban + 500 taken</span></div>
+              <div><b>Categorie 5</b><span>2 dagen ban + 750 taken</span></div>
+              <div><b>Categorie 6</b><span>3 dagen ban + 1000 taken</span></div>
+              <div><b>Categorie 7</b><span>1 week ban + 1250 taken</span></div>
+              <div><b>Categorie 8</b><span>Permanente verbanning</span></div>
+              <div><b>Categorie 9</b><span>Permanente verbanning + account wipe</span></div>
+            </div>
+          </section>
+
+          <section class="rule-block" id="cheating">
+            <h3>Artikel 1 — Cheating & Externe Software</h3>
+            <article><h4>1.1 Cheats, externe software en hardware</h4><p>Het gebruiken van software, hardware of aanpassingen die voordeel geven binnen de server is verboden. Hieronder vallen onder andere cheatprogramma’s, injectors, spoofers, DMA, macro’s, exploit tools, verboden crosshairs of aangepaste bestanden die voordeel geven.</p><span class="tag">Categorie 8 t/m 9</span></article>
+            <article><h4>1.2 Exploits en bugs</h4><p>Het misbruiken van bugs of exploits is verboden. Bugs moeten gemeld worden via een ticket. Het niet melden en bewust gebruiken kan leiden tot een ban, wipe of andere sanctie.</p><span class="tag">Categorie 5 t/m 9</span></article>
+            <article><h4>1.3 Samenwerken met cheaters</h4><p>Bewust samenwerken met spelers die cheaten, of hiervan profiteren, is niet toegestaan. Wanneer bewezen wordt dat iemand hiervan wist, kan dezelfde sanctie volgen als bij cheaten.</p><span class="tag">Categorie 8 t/m 9</span></article>
+          </section>
+
+          <section class="rule-block" id="roleplay">
+            <h3>Artikel 2 — Roleplay</h3>
+            <article><h4>2.1 FailRP</h4><p>FailRP is gedrag dat niet past binnen realistische roleplay. Denk aan onlogische acties, situaties forceren, geen angst tonen of handelen alsof je onsterfelijk bent.</p><span class="tag">Categorie 2 t/m 6</span></article>
+            <article><h4>2.2 Powergaming</h4><p>Het forceren van roleplay zonder realistische kans voor de tegenpartij is verboden. Iedere speler moet ruimte krijgen om logisch te reageren binnen een scenario.</p><span class="tag">Categorie 2 t/m 5</span></article>
+            <article><h4>2.3 Metagaming</h4><p>Informatie gebruiken die je buiten roleplay hebt verkregen, zoals Discord, streams of clips, is niet toegestaan binnen roleplay.</p><span class="tag">Categorie 3 t/m 7</span></article>
+            <article><h4>2.4 New Life Rule</h4><p>Wanneer je karakter overlijdt of wordt gered door ambulance, mag je bepaalde informatie of gebeurtenissen niet zomaar blijven gebruiken. Speel de situatie realistisch uit.</p><span class="tag">Categorie 2 t/m 5</span></article>
+            <article><h4>2.5 Combatloggen</h4><p>Uitloggen tijdens een scenario, achtervolging, gevecht, aanhouding of andere actieve roleplay is verboden. Bij crash moet je zo snel mogelijk terugkeren en dit melden.</p><span class="tag">Categorie 4 t/m 7</span></article>
+            <article><h4>2.6 RDM & VDM</h4><p>Random Deathmatch en Vehicle Deathmatch zijn verboden. Geweld moet altijd een duidelijke roleplay-aanleiding hebben en logisch opgebouwd worden.</p><span class="tag">Categorie 4 t/m 8</span></article>
+          </section>
+
+          <section class="rule-block" id="voertuigen">
+            <h3>Artikel 3 — Voertuigen</h3>
+            <article><h4>3.1 Voertuiggebruik</h4><p>Voertuigen moeten realistisch gebruikt worden. Onrealistisch offroad rijden, stunt jumps zonder reden of bewust misbruik maken van voertuigphysics valt onder FailRP.</p><span class="tag">Categorie 1 t/m 4</span></article>
+            <article><h4>3.2 Pit manoeuvres en achtervolgingen</h4><p>Een achtervolging moet realistisch blijven. Rammen zonder reden, voertuigen kapot rijden of onnodig gevaar veroorzaken kan bestraft worden.</p><span class="tag">Categorie 2 t/m 5</span></article>
+            <article><h4>3.3 Helikopters en vliegtuigen</h4><p>Landen en opstijgen met luchtvoertuigen moet op een normale en veilige manier gebeuren. Misbruik van luchtvoertuigen is verboden.</p><span class="tag">Categorie 2 t/m 6</span></article>
+          </section>
+
+          <section class="rule-block" id="wapens">
+            <h3>Artikel 4 — Wapens</h3>
+            <article><h4>4.1 Wapengebruik</h4><p>Wapens mogen alleen gebruikt worden met een geldige roleplayreden. Onnodig schieten, dreigen zonder aanleiding of schieten om te winnen in plaats van roleplayen is niet toegestaan.</p><span class="tag">Categorie 3 t/m 7</span></article>
+            <article><h4>4.2 Overvallen en gijzelingen</h4><p>Overvallen en gijzelingen moeten logisch opgebouwd zijn. Alle partijen moeten een eerlijke kans krijgen om roleplay neer te zetten.</p><span class="tag">Categorie 2 t/m 6</span></article>
+            <article><h4>4.3 Copbaiting</h4><p>Het expres uitlokken van politie zonder goede roleplayreden is verboden. Criminaliteit moet scenario-gericht zijn en niet alleen bedoeld om achtervolgingen te starten.</p><span class="tag">Categorie 2 t/m 5</span></article>
+          </section>
+
+          <section class="rule-block" id="algemeen">
+            <h3>Artikel 5 — Algemeen Gedrag</h3>
+            <article><h4>5.1 Microfoon en communicatie</h4><p>Een werkende microfoon is verplicht. Spelers moeten verstaanbaar zijn en mogen geen storende geluiden, voice changers of soundboards misbruiken.</p><span class="tag">Categorie 1 t/m 4</span></article>
+            <article><h4>5.2 Respect en toxic gedrag</h4><p>Discriminatie, intimidatie, bedreigingen buiten roleplay, toxic gedrag en het bewust verpesten van speelplezier zijn verboden.</p><span class="tag">Categorie 3 t/m 9</span></article>
+            <article><h4>5.3 Reclame en promotie</h4><p>Het promoten van andere servers, communities of Discords zonder toestemming is niet toegestaan.</p><span class="tag">Categorie 4 t/m 8</span></article>
+          </section>
+
+          <section class="rule-block" id="staffzaken">
+            <h3>Artikel 6 — Staffzaken</h3>
+            <article><h4>6.1 Staffbeslissingen</h4><p>Staffbeslissingen moeten gerespecteerd worden. Bezwaar maken kan via een ticket of officiële procedure, niet door discussies in voice of chat.</p><span class="tag">Categorie 1 t/m 5</span></article>
+            <article><h4>6.2 Clips en bewijs</h4><p>Spelers zijn zelf verantwoordelijk voor het clippen van belangrijke situaties. Refunds en klachten worden behandeld op basis van bewijs, logs en staffbeoordeling.</p><span class="tag">Richtlijn</span></article>
+            <article><h4>6.3 Misbruik van reports</h4><p>Reports zijn bedoeld voor serieuze zaken. Misbruik maken van reports of liegen tegen staff kan leiden tot sancties.</p><span class="tag">Categorie 2 t/m 6</span></article>
+          </section>
+
+          <section class="rule-block" id="overheid">
+            <h3>Artikel 7 — Overheid en Hulpdiensten</h3>
+            <article><h4>7.1 Voorbeeldfunctie</h4><p>Overheidspersoneel heeft een voorbeeldfunctie en moet zich houden aan de APV en dienstregels. Misbruik van functie, informatie of middelen is verboden.</p><span class="tag">Categorie 3 t/m 8</span></article>
+            <article><h4>7.2 Corruptie</h4><p>Corruptie binnen overheidsdiensten mag alleen wanneer dit door de serverleiding is toegestaan of goedgekeurd. Ongeoorloofde corruptie kan zwaar bestraft worden.</p><span class="tag">Categorie 5 t/m 9</span></article>
+          </section>
+
+          <section class="rule-block" id="criminaliteit">
+            <h3>Artikel 8 — Criminaliteit en Gangs</h3>
+            <article><h4>8.1 Criminele roleplay</h4><p>Criminele acties moeten logisch zijn opgebouwd en bijdragen aan roleplay. Het doel is niet alleen winnen, maar een sterk scenario neerzetten.</p><span class="tag">Richtlijn</span></article>
+            <article><h4>8.2 Oorlogen en conflicten</h4><p>Gangconflicten moeten ontstaan uit roleplay en mogen niet zomaar uit het niets gestart worden. Oorlogen moeten duidelijk, eerlijk en roleplaygericht blijven.</p><span class="tag">Categorie 2 t/m 7</span></article>
+            <article><h4>8.3 Interne gangzaken</h4><p>Gangs zijn verantwoordelijk voor hun leden. Structureel wangedrag binnen een gang kan gevolgen hebben voor de hele organisatie.</p><span class="tag">Categorie 2 t/m 8</span></article>
+          </section>
+
+          <section class="rule-block" id="eiland">
+            <h3>Artikel 9 — Eiland en Speciale Gebieden</h3>
+            <article><h4>9.1 Speciale locaties</h4><p>Voor speciale gebieden kunnen aanvullende regels gelden. Wanneer een gebied actief is voor events, scenario’s of onderwereldzaken, moeten spelers staffinstructies opvolgen.</p><span class="tag">Categorie 1 t/m 6</span></article>
+            <article><h4>9.2 Events</h4><p>Bij events gelden dezelfde APV-regels, tenzij staff vooraf andere instructies geeft. Het verstoren van events wordt bestraft.</p><span class="tag">Categorie 2 t/m 7</span></article>
+          </section>
+
+          <section class="rule-block" id="wetboek">
+            <h3>Wetboek</h3>
+            <p>Het wetboek kan later als aparte pagina worden toegevoegd met boetes, celstraffen en strafbare feiten. Deze website is voorbereid om eenvoudig een extra <b>wetboek.html</b> pagina toe te voegen.</p>
+          </section>
+
+          <section class="rule-block" id="discord">
+            <h3>Discord</h3>
+            <p>Vervang deze tekst of knop met jouw eigen Discord invite-link.</p>
+            <a class="btn primary" href="#">Join de Discord</a>
+          </section>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Roleplay Stad — APV Website. Gemaakt voor FiveM roleplay.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
