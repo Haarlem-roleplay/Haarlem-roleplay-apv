@@ -730,3 +730,17 @@ button { cursor: pointer; }
   border-radius: 14px;
   font-size: .95rem;
 }
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.feature-card p {
+  flex-grow: 1;
+}
+
+.application-btn,
+.btn-disabled {
+  margin-top: auto;
+}
