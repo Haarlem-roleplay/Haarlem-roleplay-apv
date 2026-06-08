@@ -374,9 +374,29 @@ button { cursor: pointer; }
 .sidebar-card {
   position: sticky;
   top: 92px;
+  max-height: calc(100vh - 110px);
+  overflow-y: auto;
   border-radius: var(--radius);
   padding: 22px;
 }
+.sidebar-card::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar-card::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 999px;
+}
+
+.sidebar-card::-webkit-scrollbar-thumb {
+  background: rgba(124, 92, 255, 0.55);
+  border-radius: 999px;
+}
+
+.sidebar-card::-webkit-scrollbar-thumb:hover {
+  background: rgba(124, 92, 255, 0.8);
+}
+
 .sidebar-top h3 {
   margin: 4px 0 0;
   font-size: 1.25rem;
